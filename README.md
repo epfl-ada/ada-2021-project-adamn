@@ -5,7 +5,7 @@ ada-2021-project-adamn created by GitHub Classroom
 2. [Research Questions](#research-questions)
 3. [Proposed Additional Datasets](#proposed-additional-datasets)
 4. [Methods](#methods)
-5. [Timeline](#proposed-timeline)
+5. [Timeline](#timeline)
 6. [Organization within the Team](#organization-within-team)
 
 ## Abstract
