@@ -13,15 +13,14 @@
 In October 2017, the exposure of sexual harassment allegations against famed film producer Harvey Weinstein led to the re-emergence of the #MeToo movement. The goal of this social movement was to visibly demonstrate the magnitude of the sexual assault problem through widespread media coverage of victim’s testimony. In this project, we are provided with the Quotebank dataset, an open corpus of 178 million quotations attributed to the speakers who uttered them, extracted from 162 million English news articles published between 2008 and 2020. Our goal is to exploit this dataset (2015 to 2020) to analyze if women are more represented in newspapers after the #MeToo movement. We would like to show that the liberation of women's voices regarding sexual harassment has led to increased credibility of their opinions and statements in general by the analysis of the evolution of female’s speakers in the provided dataset.
 
 ## Research Questions
-To conduct our research, we are interested in several questions.
-How are female speakers represented in newspapers compared to male speakers? 
-
-First, in a primary descriptive analysis, we wish to compare male and female speakers over the years in several aspects. We observe the evolution of the number of quotations spoken by each gender and the visibility of quotations from each gender through the number of quotation occurrences.  We also compare the number of different speakers of each genre. Furthermore, we observe the main occupations that are represented for each genre, the ages of the speakers, and the way males and females are referred to in the quotes.
-
-Do women have spoken more after the 'MeToo' movement or not? And has the representation of women evolved after Metoo for different occupation categories?
-
-Second, we will focus on the evolution of women's voices after the movement. We will then seek to analyze if the profile of the female speakers has changed: whether the professions represented have differed post-Metoo. This would help us determine the extent to which women's views have gained credibility. To answer this main question, we will conduct an observational study.
-
+1. How are female speakers represented in newspapers compared to male speakers?
+First, in a primary descriptive analysis, we compare male and female speakers over the years in several aspects:
+- We observe the evolution of the number of quotations and of the number of occurrences spoken by each gender. 
+-We compare the number of different speakers of each genre.
+-We observe the main occupations represented for each genre, the ages of speakers, and the way genders are referred to in the quotes.
+2. Have women spoken more after the 'MeToo' movement? And has the representation of women evolved after Metoo for different occupation categories?
+Second, we will focus on the evolution of women's voices after #Metoo by conducting an observational study. 
+- We will analyze if the profile of the female speakers has changed: whether the professions represented have differed post-Metoo. This would help us determine the extent to which women's views have gained credibility.
 
 ## Proposed Additional Datasets
 Since our analysis focuses on the representation of women in newspapers, we need to collect additional information about the speaker. To do so, we use the additional speaker metadata available for ~9M unique Wikidata entities (identified by their QID) in the form of a .parquet file. This file contains several attributes, and we kept the following: 'gender', 'date_of_birth', 'id', 'ethnic_group', 'academic_degree', 'occupation' and 'religion'. We then merged this additional data set with our original data set. However, the parquet file provides us with wikicodes. To get readable information, we used the provided file "wikidata_labels_descriptions.csv.bz2" allowing to link the wikicode to a readable label. This way, each quotation is linked to its speaker and his attributes in a readable way.
