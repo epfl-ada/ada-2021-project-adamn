@@ -7,6 +7,7 @@ ada-2021-project-adamn created by GitHub Classroom
 4. [Methods](#methods)
 5. [Timeline](#timeline)
 6. [Organization within the Team](#organization-within-team)
+7. [Questions for TAs](#questions-for-TAs)
 
 ## Abstract
 In October 2017, the exposure of sexual harassment allegations against famed film producer Harvey Weinstein led to the re-emergence of the #MeToo movement. The goal of this social movement was to visibly demonstrate the magnitude of the sexual assault problem through widespread media coverage of victim’s testimony. In this project, we are provided with the Quotebank dataset, an open corpus of 178 million quotations attributed to the speakers who uttered them, extracted from 162 million English news articles published between 2008 and 2020. Our goal is to exploit this dataset (2015 to 2020) to analyze if women are more represented in newspapers after the #MeToo movement. We would like to show that the liberation of women's voices regarding sexual harassment has led to increased credibility of their opinions and statements in general by the analysis of the evolution of female’s speakers in the provided dataset.
@@ -46,7 +47,12 @@ We will proceed by occupational category. We will calculate the propensity score
 - Description of project in Data Story (Week 13)
 
 ## Organization within Team
-Lisa: Group the occupations in categories, and prepare the dataset for propensity score calculation (discretization)
-Julie: Propensity score calculation
-Jeannette: Matching algorithm 
-Josephine: Analysis of the results of the observational study, Data story
+- Lisa: Group the occupations in categories, and prepare the dataset for propensity score calculation (discretization)
+- Julie: Propensity score calculation
+- Jeannette: Matching algorithm 
+- Josephine: Analysis of the results of the observational study, Data story
+
+## Questions for TAs:
+We kept only the first qids in the list of qids, but we realized that it can wrongfully pair a quotation with a namesake of the real speaker. Do we have to remove all the quotations linked to multiple qids in order to avoid these events?
+Some date of birth are wrong in the .parquet file (when we compute, we have someone with a negative age). Can we deal with it just by removing outliers as we have done?
+
