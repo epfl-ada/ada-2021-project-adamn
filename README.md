@@ -14,11 +14,13 @@ In October 2017, the exposure of sexual harassment allegations against famed fil
 
 ## Research Questions
 1. How are female speakers represented in newspapers compared to male speakers?
+
 First, in a primary descriptive analysis, we compare male and female speakers over the years in several aspects:
 - We observe the evolution of the number of quotations and of the number of occurrences spoken by each gender. 
 - We compare the number of different speakers of each genre.
 - We observe the main occupations represented for each genre, the ages of speakers, and the way genders are referred to in the quotes.
 2. Have women spoken more after the 'MeToo' movement? And has the representation of women evolved after Metoo for different occupation categories?
+
 Second, we will focus on the evolution of women's voices after #Metoo by conducting an observational study. 
 - We will analyze if the profile of the female speakers has changed: whether the professions represented have differed post-Metoo. This would help us determine the extent to which women's views have gained credibility.
 
@@ -38,7 +40,7 @@ We will proceed by occupational category. We will calculate the propensity score
 ## Timeline
 - Data preprocessing and filtering (Done) 
 - First descriptive tasks (Done)
--Visualisation of male and female speakers 
+- Visualisation of male and female speakers 
 - Description of the Dataset differentiating the male and female speakers
 - Computation of propensity score for each woman (Week 10)
 - Matching: pairing 1 woman before Metoo with 1 woman after Metoo based on propensity score (same profession) (Week 11)
@@ -52,6 +54,5 @@ We will proceed by occupational category. We will calculate the propensity score
 - Josephine: Analysis of the results of the observational study, Data story
 
 ## Questions for TAs:
-1. We kept only the first qids in the list of qids, but we realized that it can wrongfully pair a quotation with a namesake of the real speaker. Do we have to remove all the quotations linked to multiple qids in order to avoid these events?
-2. Some date of birth are wrong in the .parquet file (when we compute, we have someone with a negative age). Can we deal with it just by removing outliers as we have done?
+- Some dates of birth are wrong in the .parquet file (eg: negative age). Can we deal with it just by removing outliers as we have done?
 
