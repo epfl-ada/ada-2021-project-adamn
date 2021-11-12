@@ -16,8 +16,8 @@ In October 2017, the exposure of sexual harassment allegations against famed fil
 1. How are female speakers represented in newspapers compared to male speakers?
 First, in a primary descriptive analysis, we compare male and female speakers over the years in several aspects:
 - We observe the evolution of the number of quotations and of the number of occurrences spoken by each gender. 
--We compare the number of different speakers of each genre.
--We observe the main occupations represented for each genre, the ages of speakers, and the way genders are referred to in the quotes.
+- We compare the number of different speakers of each genre.
+- We observe the main occupations represented for each genre, the ages of speakers, and the way genders are referred to in the quotes.
 2. Have women spoken more after the 'MeToo' movement? And has the representation of women evolved after Metoo for different occupation categories?
 Second, we will focus on the evolution of women's voices after #Metoo by conducting an observational study. 
 - We will analyze if the profile of the female speakers has changed: whether the professions represented have differed post-Metoo. This would help us determine the extent to which women's views have gained credibility.
