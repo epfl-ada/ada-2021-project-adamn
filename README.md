@@ -14,9 +14,11 @@ In October 2017, the exposure of sexual harassment allegations against famed fil
 ## Research Questions
 To conduct our research, we are interested in several questions.
 How are female speakers represented in newspapers compared to male speakers? 
+
 First, in a primary descriptive analysis, we wish to compare male and female speakers over the years in several aspects. We observe the evolution of the number of quotations spoken by each gender and the visibility of quotations from each gender through the number of quotation occurrences.  We also compare the number of different speakers of each genre. Furthermore, we observe the main occupations that are represented for each genre, the ages of the speakers, and the way males and females are referred to in the quotes.
 
 Do women have spoken more after the 'MeToo' movement or not? And has the representation of women evolved after Metoo for different occupation categories?
+
 Second, we will focus on the evolution of women's voices after the movement. We will then seek to analyze if the profile of the female speakers has changed: whether the professions represented have differed post-Metoo. This would help us determine the extent to which women's views have gained credibility. To answer this main question, we will conduct an observational study.
 
 
