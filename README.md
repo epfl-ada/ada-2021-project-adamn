@@ -1,5 +1,5 @@
 # ada-2021-project-adamn
-ada-2021-project-adamn created by GitHub Classroom
+
 ## Table of Contents
 1. [Abstract](#abstract)
 2. [Research Questions](#research-questions)
@@ -53,6 +53,6 @@ We will proceed by occupational category. We will calculate the propensity score
 - Josephine: Analysis of the results of the observational study, Data story
 
 ## Questions for TAs:
-We kept only the first qids in the list of qids, but we realized that it can wrongfully pair a quotation with a namesake of the real speaker. Do we have to remove all the quotations linked to multiple qids in order to avoid these events?
-Some date of birth are wrong in the .parquet file (when we compute, we have someone with a negative age). Can we deal with it just by removing outliers as we have done?
+1. We kept only the first qids in the list of qids, but we realized that it can wrongfully pair a quotation with a namesake of the real speaker. Do we have to remove all the quotations linked to multiple qids in order to avoid these events?
+2. Some date of birth are wrong in the .parquet file (when we compute, we have someone with a negative age). Can we deal with it just by removing outliers as we have done?
 
