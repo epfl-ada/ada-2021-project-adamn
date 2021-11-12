@@ -36,19 +36,19 @@ The first questions we address are descriptive. We used samples of 100k for each
 Now we want to answer the question of whether the women have more spoken after the #Metoo movement and we would like to see if certain professions are now more represented in newspapers than before MeToo. In this milestone we will treat the entire dataset. We plan to conduct an observational study, with the treatment being "the MeToo movement happened." Control and treatment groups would consist of female speakers before and after #Metoo, respectively. We will proceed by occupational category. We will calculate the propensity score for each woman in each group to calculate the probability of receiving the treatment (being a speaker before or after MeToo). We will then match pairs of female speakers with the same occupation (1 control, 1 treated). Propensity score will be calculated based on observed features such as age, ethnicity and religion through a logistic regression (treatment ~ age + C(black) + C(white) + C(christian) + C(muslim) + C(jude) etc......).The measured outcome will be the number of quotations and occurrences attributed to each speaker in the pair for a specific profession: the number of quotations only after 2017 for the treated one, and only before 2017 for the control one. By iterating this process across all pairs for multiple profession categories, we will be able to tell if, for example, women scientists spoke more in newspapers after MeToo, but controlling for confounding factors through matching.
 
 ## Timeline
-•	Data preprocessing and filtering (Done)
-•	First descriptive tasks (Done) -Visualisation of male and female speakers
-•	Description of the Dataset differentiating the male and female speakers
-•	Computation of propensity score for each woman (Week 10)
-•	Matching: pairing 1 woman before Metoo with 1 woman after Metoo based on propensity score (same profession) (Week 11)
-•	Iteration of the process for several occupation category (Week 12)
-•	Description of project in Data Story (Week 13)
+-	Data preprocessing and filtering (Done)
+-	First descriptive tasks (Done) -Visualisation of male and female speakers
+-	Description of the Dataset differentiating the male and female speakers
+-	Computation of propensity score for each woman (Week 10)
+-	Matching: pairing 1 woman before Metoo with 1 woman after Metoo based on propensity score (same profession) (Week 11)
+-	Iteration of the process for several occupation category (Week 12)
+-	Description of project in Data Story (Week 13)
 
 ## Organization within Team
-•	Lisa: Group the occupations in categories, prepare the dataset for propensity score calculation (discretization)
-•	Julie: Propensity score calculation
-•	Jeannette: Matching algorithm
-•	Josephine: Analysis of the results of the observational study, Data story
+-	Lisa: Group the occupations in categories, prepare the dataset for propensity score calculation (discretization)
+-	Julie: Propensity score calculation
+-	Jeannette: Matching algorithm
+-	Josephine: Analysis of the results of the observational study, Data story
 
 ## Questions for TAs:
 - Some dates of birth are wrong in the .parquet file (eg: negative age). Can we deal with it just by removing outliers as we have done?
