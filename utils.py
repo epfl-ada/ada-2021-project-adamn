@@ -1,6 +1,11 @@
 import numpy as np
 import pandas as pd
 from collections import Counter
+from tabulate import tabulate
+from scipy import stats
+import seaborn as sns
+import matplotlib.pyplot as plt
+
 
 def unique_speaker_per_gender(quotes, time = None):
         """
