@@ -2,13 +2,17 @@
 # Women's voices before and after #MeToo
 ## Table of Contents
 1. [Abstract](#abstract)
-2. [Research Questions](#research-questions)
-3. [Proposed Additional Datasets](#proposed-additional-datasets)
-4. [Methods](#methods)
-5. [Contributions](#Contributions)
+2. [Datastory](#Datastory)
+3. [Research Questions](#research-questions)
+4. [Proposed Additional Datasets](#proposed-additional-datasets)
+5. [Methods](#methods)
+6. [Contributions](#Contributions)
 
 ## Abstract
 In October 2017, the exposure of sexual harassment allegations against famed film producer Harvey Weinstein led to the re-emergence of the #MeToo movement. The goal of this social movement was to visibly demonstrate the magnitude of the sexual assault problem through widespread media coverage of victim’s testimony. In this project, we are provided with the Quotebank dataset, an open corpus of 178 million quotations attributed to the speakers who uttered them, extracted from 162 million English news articles published between 2008 and 2020. Our goal is to exploit this dataset (2015 to 2020) to analyze if women are more represented in newspapers after the #MeToo movement. We would like to analyze whether the liberation of women's voices regarding sexual harassment has led to an increased representation of their opinions and statements in general in newspapers.
+
+## Datastory
+The datastory is available [here](https://josephinepotdevin.github.io/datastory/).
 
 ## Research Questions
 1. How are female speakers represented in newspapers compared to male speakers?
@@ -31,7 +35,7 @@ The first step in our work is to pre-process the provided data. Since our study 
 ### Data exploration
 The first questions we address are descriptive. We are especially interested in the number of quotes and of occurrences for each gender. At the very beggining, we explore the data with all genders. Then, we grouped our speakers by gender (keeping only women and men) and performed our descriptive analyses by year first and then categorizing "before", "during", and "after" Metoo. We also quantify briefly the impact of the #MeToo movement in the newspaper, as well as the way how different gender are refered to.
 ### Observational study
-Now we want to answer the question of whether the women have more spoken after the #Metoo movement and we would like to see if certain professions are now more represented in newspapers than before MeToo. In this part, the entire dataset is treated. We conduct an observational study, with the treatment being "the MeToo movement happened." Control and treatment groups consist of speakers before and after #Metoo, respectively. We will calculate the propensity score for each speaker in order to obtain the probability to be treated (being a speaker before or after #MeToo). Propensity scores will be calculated based on observed features such as age, occupation, academic degree and gender through a logistic regression (treatment ~ age + C(Government) + C(Scientist) + … + C(bachelor) + C(phD) + ... + C(male) + C(female)). In order to answer the question if women in general speak more after the movement, we will match pairs of speakers (1 control, 1 treated) based on the propensity scores, only if they are of the same gender. Then, we will also proceed by occupational category and we will match pairs of female speakers with the same occupation, as well as pairs of male speakers with the same occupation. The measured outcome will be the number of quotations and occurrences attributed to each group for a specific profession: the number of quotations only after 2017 for the treated one, and only before 2017 for the control one. By iterating this process across all pairs for multiple profession categories, we will be able to tell if, for example, women scientists spoke more in newspapers after MeToo, but controlling for confounding factors through matching. By comparing with men, we will be able to tell if the trends we observe are just global trends or really related to women. The datastory is available [here](https://josephinepotdevin.github.io/datastory/).
+Now we want to answer the question of whether the women have more spoken after the #Metoo movement and we would like to see if certain professions are now more represented in newspapers than before MeToo. In this part, the entire dataset is treated. We conduct an observational study, with the treatment being "the MeToo movement happened." Control and treatment groups consist of speakers before and after #Metoo, respectively. We will calculate the propensity score for each speaker in order to obtain the probability to be treated (being a speaker before or after #MeToo). Propensity scores will be calculated based on observed features such as age, occupation, academic degree and gender through a logistic regression (treatment ~ age + C(Government) + C(Scientist) + … + C(bachelor) + C(phD) + ... + C(male) + C(female)). In order to answer the question if women in general speak more after the movement, we will match pairs of speakers (1 control, 1 treated) based on the propensity scores, only if they are of the same gender. Then, we will also proceed by occupational category and we will match pairs of female speakers with the same occupation, as well as pairs of male speakers with the same occupation. The measured outcome will be the number of quotations and occurrences attributed to each group for a specific profession: the number of quotations only after 2017 for the treated one, and only before 2017 for the control one. By iterating this process across all pairs for multiple profession categories, we will be able to tell if, for example, women scientists spoke more in newspapers after MeToo, but controlling for confounding factors through matching. By comparing with men, we will be able to tell if the trends we observe are just global trends or really related to women.
 
 ## Contributions
 - Lisa: Data preprocessing and filtering, propensity scores and matching
