@@ -40,6 +40,6 @@ Now we want to answer the question of whether the women have more spoken after t
 ## Contributions
 - Lisa: Data preprocessing and filtering, propensity scores and matching
 -	Julie: Problem formulation, ReadMe redaction, group the academic degree by categories
--	Jeannette: First descriptive tasks, analysis of the balanced data after matching, (graphs), conclusions
+-	Jeannette: First descriptive tasks, analysis of the balanced data after matching (graphs), conclusions
 -	Josephine: Group the occupations in categories, data story
 
